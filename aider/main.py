@@ -6,8 +6,14 @@ import sys
 import threading
 import traceback
 import webbrowser
+import logging
 from dataclasses import fields
 from pathlib import Path
+
+if False:
+   logging.basicConfig(filename='http_requests.log', level=logging.DEBUG,  
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
 
 try:
     import git
