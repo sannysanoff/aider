@@ -4,7 +4,7 @@
 #
 #    pip-compile --allow-unsafe --constraint=requirements/common-constraints.txt --output-file=requirements.txt requirements/requirements.in
 #
-aiohappyeyeballs==2.4.6
+aiohappyeyeballs==2.4.8
     # via
     #   -c requirements/common-constraints.txt
     #   aiohttp
@@ -160,7 +160,7 @@ jsonschema-specifications==2024.10.1
     # via
     #   -c requirements/common-constraints.txt
     #   jsonschema
-litellm==1.61.20
+litellm==1.62.1
     # via
     #   -c requirements/common-constraints.txt
     #   -r requirements/requirements.in
